@@ -5,7 +5,7 @@ import json
 import google.generativeai as genai
 
 # Configure Gemini AI
-genai.configure(api_key="AIzaSyC6rcStK7vdwoloB65UqppIWbb2L-Zf_Ik")
+genai.configure(api_key="Enter your api key here")
 model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
 # Initialize session state
